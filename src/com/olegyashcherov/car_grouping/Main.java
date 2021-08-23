@@ -6,7 +6,9 @@ import static java.util.stream.Collectors.groupingBy;
 
 public class Main {
 
-    private static final int setSize = CarModel.values().length * CarType.values().length;
+    //Сделал половину возможных комбинаций автомобилей, чтобы наполнить случайным образом
+    //При полном наборе комбинаций надо использовать перебор Enam (цикл в цикле) и заполнять не не Set, а List
+    private static final int setSize = CarModel.values().length * CarType.values().length/2;
 
     public static void main(String[] args) {
 
