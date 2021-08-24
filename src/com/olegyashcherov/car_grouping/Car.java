@@ -35,7 +35,7 @@ public class Car implements Comparable<Car> {
 
     @Override
     public String toString() {
-        return "Автомобиль {" +
+        return "{" +
                 carType +
                 ", " + Utils.firstUpperCase(carModel.name()) +
                 '}';
